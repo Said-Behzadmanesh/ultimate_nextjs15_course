@@ -16,6 +16,16 @@ module.exports = {
 
         // Define your custom 'grotesk' utility with its variable and a fallback stack.
         grotesk: ["var(--font-space-grotesk)", "system-ui", "sans-serif"],
+        inter: ["var(--font-inter)", "system-ui", "sans-serif"],
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "auth-dark": "url('/images/auth-dark.png')",
+        "auth-light": "url('/images/auth-light.png')",
       },
     },
   },
